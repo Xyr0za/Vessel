@@ -14,8 +14,6 @@ def is_prime(n):
 worker1 = Worker()
 worker1.request_node()
 
-print("Iden: ", worker1.identity)
-
 for i in range(3):
     worker1.request_rights()
     worker1.work(is_prime)

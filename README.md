@@ -1,1 +1,3 @@
-# Vessel
+# dCEL
+
+Distributed Computation Execution Library

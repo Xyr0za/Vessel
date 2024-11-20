@@ -18,9 +18,6 @@ print("Iden: ", worker1.identity)
 
 for i in range(3):
     worker1.request_rights()
-
-    print(worker1.rights)
-
     worker1.work(is_prime)
 
 

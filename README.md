@@ -57,8 +57,10 @@ while True:
     worker1.post_return(info)
 ```
 
-# Features to implement
+# Planned Features
 * Result Consolidation - Returning of the calculation results - COMPLETED
 * Documentation inside functions
 * Improved Security
 * Modularising the function definition
+* Fallbacks
+* Prevention of malicious injection

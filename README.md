@@ -35,17 +35,17 @@ def is_prime(n):
 ## 3. On the nodes; intiatite the worker scripts
 
 ```py
-from dCEL.worker import Worker
-
 worker1 = Worker()
 worker1.request_node()
 
-while Working:
+while True:
     worker1.request_rights()
-    worker1.work(is_prime)
+    info = worker1.work(function_to_work)
+    worker1.post_return(info)
 ```
 
 # Features to implement
-* Result Consolidation - Returning of the calculation results
+* Result Consolidation - Returning of the calculation results - COMPLETED
 * Documentation inside functions
 * Improved Security
+* Modularising the function definition
